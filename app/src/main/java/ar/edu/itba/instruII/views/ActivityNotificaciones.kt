@@ -12,7 +12,15 @@ import android.content.Context
 import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
 import android.app.TimePickerDialog
+import android.content.DialogInterface
+import android.content.SharedPreferences
+import android.widget.AutoCompleteTextView
+import android.widget.EditText
+import android.widget.TextView
+import android.widget.Toast
+import androidx.appcompat.app.AlertDialog
 import ar.edu.itba.instruII.service.AlarmService
+import ar.edu.itba.instruII.services.DosisServicio
 import java.text.SimpleDateFormat
 import java.util.*
 
@@ -48,6 +56,7 @@ class ActivityNotificaciones : AppCompatActivity() {
         }
 
         createNotificationChannel()
+
     }
 
     private fun createNotificationChannel(){
