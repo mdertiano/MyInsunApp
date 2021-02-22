@@ -1,0 +1,233 @@
+<resources>
+    <string name="app_name">InstruII</string>
+
+    <string-array name="alimentos">
+        <item>Flan (unidad)</item>
+        <item>Helado de crema (bocha)</item>
+        <item>Helado de agua (unidad)</item>
+        <item>Leche descremada (vaso o taza)</item>
+        <item>Leche entera (vaso o taza)</item>
+        <item>Crema de leche (brick)</item>
+        <item>Queso fresco</item>
+        <item>Yogurt entero (unidad)</item>
+        <item>Yogurt descremado (unidad)</item>
+        <item>Yogurt líquido (unidad)</item>
+        <item>Arroz (plato mediano)</item>
+        <item>Arroz (plato grande)</item>
+        <item>Arroz (guarnición)</item>
+        <item>Arroz integral (plato mediano)</item>
+        <item>Arroz integral (plato grande)</item>
+        <item>Arroz integral (guarnición)</item>
+        <item>Batata</item>
+        <item>Galleta (unidad)</item>
+        <item>Guisantes (plato mediano)</item>
+        <item>Guisantes (plato grande)</item>
+        <item>Guisantes (guarnición)</item>
+        <item>Harina de trigo/maíz (cucharada sopera)</item>
+        <item>Lentejas (plato mediano)</item>
+        <item>Lentejas (plato grande)</item>
+        <item>Lentejas (guarnición)</item>
+        <item>Pan blanco (rebanada)</item>
+        <item>Papa hervida (plato mediano)</item>
+        <item>Papa hervida (plato grande)</item>
+        <item>Papa hervida (guarnición)</item>
+        <item>Papas fritas (guarnición)</item>
+        <item>Sushi</item>
+        <item>Palta</item>
+        <item>Albaricoque</item>
+        <item>Arándano (puñado)</item>
+        <item>Castaña (unidad)</item>
+        <item>Cereza (12 unidades)</item>
+        <item>Ciruela</item>
+        <item>Coco (tajada)</item>
+        <item>Dátil</item>
+        <item>Frambuesa (puñado)</item>
+        <item>Higos</item>
+        <item>Kiwi</item>
+        <item>Limón</item>
+        <item>Mandarina</item>
+        <item>Mango</item>
+        <item>Manzana</item>
+        <item>Durazno</item>
+        <item>Durazno en conserva (una mitad)</item>
+        <item>Melón (tajada)</item>
+        <item>Membrillo</item>
+        <item>Moras (puñado)</item>
+        <item>Naranja</item>
+        <item>Pera</item>
+        <item>Papaya (tajada)</item>
+        <item>Ananá (2 rodajas)</item>
+        <item>Banana</item>
+        <item>Sandía (tajada)</item>
+        <item>Uva (12 unidades)</item>
+        <item>Acelga</item>
+        <item>Ajo (3 dientes)</item>
+        <item>Alcachofa</item>
+        <item>Berenjena</item>
+        <item>Berro</item>
+        <item>Brócoli</item>
+        <item>Calabacín</item>
+        <item>Cebolla</item>
+        <item>Champiñón</item>
+        <item>Coliflor</item>
+        <item>Escarola</item>
+        <item>Espárrago</item>
+        <item>Espinaca</item>
+        <item>Lechuga</item>
+        <item>Nabo</item>
+        <item>Palmitos</item>
+        <item>Pepino</item>
+        <item>Morrón rojo/verde</item>
+        <item>Puerro</item>
+        <item>Rábano</item>
+        <item>Repollo</item>
+        <item>Tomate</item>
+        <item>Zanahoria cruda</item>
+        <item>Zanahoria cocida</item>
+        <item>Aceituna (12 unidades)</item>
+        <item>Almendra (puñado)</item>
+        <item>Avellana (puñado)</item>
+        <item>Maní (puñado)</item>
+        <item>Pasas de uva (puñado)</item>
+        <item>Nuez (puñado)</item>
+        <item>Pipas (puñado)</item>
+        <item>Pistacho (puñado)</item>
+        <item>Gaseosa (vaso)</item>
+        <item>Gaseosa light (vaso)</item>
+        <item>Chocolatada (vaso)</item>
+        <item>Bebida energética (lata)</item>
+        <item>Cerveza (vaso)</item>
+        <item>Sidra (copa)</item>
+        <item>Vermut (copa)</item>
+        <item>Jugo de frutas (vaso)</item>
+        <item>Vino (copa)</item>
+        <item>Azúcar blanca (cucharada de postre)</item>
+        <item>Azúcar negra (cucharada de postre)</item>
+        <item>Barra de cereales</item>
+        <item>Croissant (unidad)</item>
+        <item>Cacao en polvo (cucharada de postre)</item>
+        <item>Canelones (3 unidades)</item>
+        <item>Caramelo (unidad)</item>
+        <item>Chocolate (tableta)</item>
+        <item>Empanada</item>
+        <item>Edulcorante (cucharada sopera)</item>
+        <item>Gelatina</item>
+        <item>Ketchup (sobre)</item>
+        <item>Lasaña</item>
+        <item>Magdalena</item>
+        <item>Mermelada (cucharada sopera)</item>
+        <item>Mermelada light (cucharada sopera)</item>
+        <item>Miel (cucharada sopera)</item>
+        <item>Mostaza</item>
+        <item>Pizza (porción)</item>
+        <item>Salsa barbacoa</item>
+        <item>Salsa blanca</item>
+        <item>Salsa bolognesa</item>
+        <item>Salsa de tomate</item>
+        <item>Vinagre</item>
+        <item>Fideos (plato mediano)</item>
+        <item>Fideos (plato grande)</item>
+        <item>Fideos (guarnición)</item>
+        <item>Torta de bizcochuelo (porción)</item>
+    </string-array>
+
+    <string-array name="horas">
+        <item>00</item>
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+    </string-array>
+
+    <string-array name="minutos">
+        <item>00</item>
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+    </string-array>
+    <string name="title_activity_prueba_tabla">PruebaTabla</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+</resources>

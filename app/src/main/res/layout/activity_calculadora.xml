@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/visor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:foregroundTint="#101010"
+    tools:context=".views.ActivityCalculadora"><![CDATA[
+
+“436dp" />
+]]>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="146dp"
+        android:layout_height="64dp"
+        android:orientation="horizontal"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/GuardarDosisIngesta"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9">
+
+        <!--//<AutoCompleteTextView
+            android:id="@+id/ACHora"
+            android:layout_width="54dp"
+            android:layout_height="57dp"
+            android:text="00"
+            android:textAlignment="center"
+            android:textSize="24sp" />-->
+
+        <!-- <TextView
+            android:id="@+id/textView3"
+            android:layout_width="36dp"
+            android:layout_height="50dp"
+            android:text=":"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <AutoCompleteTextView
+            android:id="@+id/ACMinutos"
+            android:layout_width="54dp"
+            android:layout_height="57dp"
+            android:text="00"
+            android:textAlignment="center"
+            android:textSize="24sp" />-->
+
+    </LinearLayout>
+
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteTextView"
+        android:layout_width="305dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="14dp"
+        android:hint="Seleccionar alimento"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewConf" />
+
+    <Button
+        android:id="@+id/BotonCALCULAR"
+        android:layout_width="215dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#FA9790"
+        android:enabled="false"
+        android:hint="Calcular Dosis"
+        android:text="CALCULAR DOSIS"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cantGramos" />
+
+    <ImageView
+        android:id="@+id/imageViewConf"
+        android:layout_width="336dp"
+        android:layout_height="154dp"
+        android:scaleType="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.213"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@mipmap/cabecalc" />
+
+    <EditText
+        android:id="@+id/cantGramos"
+        android:layout_width="306dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="29dp"
+        android:ems="10"
+        android:hint="Ingresar Gramos"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/autoCompleteTextView" />
+
+    <EditText
+        android:id="@+id/Tiempo"
+        android:layout_width="305dp"
+        android:layout_height="49dp"
+        android:clickable="false"
+        android:focusable="false"
+        android:hint="Ingresar Hora"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/visorcalculo" />
+
+    <TextView
+        android:id="@+id/visorcalculo"
+        android:layout_width="76dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="160dp"
+        android:ems="10"
+        android:hint="-"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BotonCALCULAR" />
+
+    <Button
+        android:id="@+id/GuardarDosisIngesta"
+        android:layout_width="214dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginBottom="80dp"
+        android:backgroundTint="#FA9790"
+        android:enabled="false"
+        android:hint="Boton Guardar"
+        android:text="Guardar Dosis"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="180dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="35dp"
+        android:text="unidades de insulina"
+        android:textAlignment="center"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BotonCALCULAR" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
